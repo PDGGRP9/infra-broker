@@ -20,3 +20,4 @@ fi
 mosquitto_passwd -b -c "${PASSWORD_FILE}" "${MQTT_USER}" "${MQTT_PASSWORD}"
 
 exec /usr/sbin/mosquitto -c "${RUNTIME_CONFIG}"
+
